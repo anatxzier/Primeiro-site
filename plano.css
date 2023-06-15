@@ -1,0 +1,205 @@
+/* Parte Arthur */
+/* Link das fontes a serem usadas */
+@import url('https://fonts.googleapis.com/css2? família= Poppins:wght@400;600 &family= Rubik:wght@400;500;600;800 & display=swap');
+/* Serve para resetar os conteúdos que vem de "fabrica" */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    /* Fonte que será usada em todo o site */
+    font-family: 'Rubik', sans-serif;
+}
+/* Section é classe geral depois da header, será trabalhado a contrução dos elementos do titulo e o poster */
+section{
+    padding: 70px 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #FBF8EB;
+    gap: 20px;
+}
+/* Tamanho geral de todos os h3 */
+h3{
+    font-size: 30px;
+}
+/* Tamanho, peso e centralização do titulo */
+.titulo{
+    font-size: 40px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+/* Configuração e definição geral de todos os  retângulos brancos */
+.branco{
+    display: flex;
+    flex-direction: column;
+    background-color: #d7d7d7;
+    height: 350px;
+    width: 300px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.25);
+}
+/* Margin-top para o desnível das polaroides */
+.branco:nth-of-type(1){
+    margin-top: 50px;
+}
+.branco:nth-of-type(3){
+    margin-top: 50px;
+}
+/* Definição geral do poster onde ficará as polaroides */
+.poster{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+/* Configurações do quadrado preto da polariode */
+.preto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+    color: #ffffff;
+    background-color: #3E3E3E;
+    border: 1px solid #000000;
+    margin: 20px;
+    margin-bottom: 0px;
+    height: 250px;
+}
+/* Definição do peso da fonte do texto sobre o que você ganha ao assinar */
+.texto2{
+    font-weight: 400;
+}
+/* Definição do texto sobre tipo e valor, onde foi necessário ter uma centralização */
+.texto{
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* Contrução do botão e do texto presente dentro dele, que foi dado o nome de grow  */
+.grow{
+    font-weight: 800;
+    font-size: 15px;
+    display: flex;
+    color: #ffffff;
+    background-color: #CC3A07;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 30px 70px;
+    height: 30px;
+}
+/* Foi dado o nome grow para que quando passar o mouse sobre ele ele aumentar, para isso foi usado o hover */
+.grow:hover{
+    transform: scale(1.1);
+}
+/* FIM da parte do Arthur */
+
+/* Parte Ana */
+/* Classe principal da header;
+define responsividade, posicionamento e cor da fonte e do fundo */
+.principal{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    background-color: #CC3A07;
+    padding: 0px 30px;
+
+}
+/* classe filha da header;
+define o tamanho e a margem dos botões da header */
+.botão{
+    font-size: 15px;
+    margin: 25px 40px;
+}
+/* classe filha header;
+define configurações do botão cadastre-se */
+.cadastro{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    padding: 20px;
+}
+/* hover = mudar a cor do botão quando passar o cursor*/
+.cadastro:hover{
+    color: #000000;
+    font-weight: bold;
+}
+/* classe filha header;
+define configurações do botão entrar*/
+.entrar{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    width: 86px;
+    height: 35px;
+    left: 1314px;
+    top: 13px;
+    background: rgba(251, 248, 235, 0.545098);
+    border-radius: 5px;
+    padding: 8px 10px;
+}
+/* hover = mudar a cor do botão quando passar o cursor*/
+.entrar:hover{
+    color: #ffffff;
+}
+/* FIM da parte da Ana */
+
+/* Parte da Natália */
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #CC3A07;
+    color: #000;
+    font-size: 15px;
+    font-weight:bold;
+}
+.logo > h3{
+    font-weight: 800;
+    font-size: 16px;
+}
+.sobre{
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contato{
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.icones{
+    display: flex;
+    gap: 20px;
+}
+
+.direitos{
+    display: block;
+    background-color: #6F5643;
+}
+.direitos2{
+    font-weight: 400;
+    text-align: center;
+}
+a{
+    color: #000;
+}
+.icones a:hover{
+    color: #FBF8EB;
+}
+.sobre a:hover{
+    color: #FBF8EB;
+}
+/* FIM da parte da Natália */
